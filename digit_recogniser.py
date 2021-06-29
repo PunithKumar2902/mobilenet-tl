@@ -24,5 +24,3 @@ if canvas_result.image_data is not None:
     if st.button('Predict'):
       st.write(f"output is : {y_pred}")
       st.image(b)
-  
-  
