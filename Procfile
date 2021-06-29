@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run tl.py
+web: sh setup.sh && streamlit run digit_recogniser.py
