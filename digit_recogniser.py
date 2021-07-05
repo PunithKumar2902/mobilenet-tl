@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import cv2 
 model = tf.keras.applications.DenseNet121(weights='imagenet')
-from google.colab.patches import cv2_imshow
+#from google.colab.patches import cv2_imshow
 from streamlit_drawable_canvas import st_canvas
  
 st.title('Digit Recognizer')
